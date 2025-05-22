@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GpsAttendanceApp</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Maui" Version="8.0.0" />
+    <PackageReference Include="Plugin.Maui.Audio" Version="1.0.0" />
+    <PackageReference Include="Plugin.Maui.Geolocation" Version="1.0.0" />
+    <PackageReference Include="Plugin.Maui.BackgroundService" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
